@@ -36,7 +36,7 @@ $ npm install
 
 ### Run Lint
 
-These lint rules are very strict. There should be no use of `any` here; that is, ESLint should be able to properly consume all types from `firestore-jest-mock`.
+These lint rules are very strict. These make sure there's no use of `any` anywhere in this project; that is, ESLint should be able to properly consume all types from `firestore-jest-mock`.
 
 ```sh
 $ npm run lint
