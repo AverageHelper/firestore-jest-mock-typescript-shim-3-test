@@ -18,6 +18,7 @@ import {
   mockBatchSet,
   mockSettings,
   mockOnSnapShot,
+  mockQueryOnSnapshot,
   mockUseEmulator,
   mockDoc,
   mockCollection,
@@ -288,7 +289,7 @@ describe("we can start a firebase application", () => {
 
       expect(unsubscribe).toBeFunction();
       expect(mockWhere).toHaveBeenCalled();
-      expect(mockOnSnapShot).toHaveBeenCalled();
+      expect(mockQueryOnSnapshot).toHaveBeenCalled();
     });
 
     describe("withConverter", () => {
